@@ -1,0 +1,72 @@
+<div
+  class="sticky top-0 w-full h-14 md:h-16 lg:h-20 bg-[#080808] shadow flex items-center justify-between px-4 z-50"
+>
+  <div class=" flex justify-between items-center w-1/2">
+  <a
+  class="py-1.5 px-4 bg-[#292929] text-white rounded-full space-x-1.5 transition flex items-center justify-center"
+  href="#about"
+>
+  <svg
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    class="w-4 text-white"
+  >
+    <path
+      d="M9.33366 1.51306V4.26675C9.33366 4.64012 9.33366 4.82681 9.40633 4.96941C9.47026 5.09485 9.57219 5.19684 9.69766 5.26076C9.84026 5.33342 10.0269 5.33342 10.4003 5.33342H13.154M9.33366 11.3334H5.33366M10.667 8.66671H5.33366M13.3337 6.65885V11.4667C13.3337 12.5868 13.3337 13.1468 13.1157 13.5747C12.9239 13.951 12.618 14.257 12.2417 14.4487C11.8138 14.6667 11.2538 14.6667 10.1337 14.6667H5.86699C4.74689 14.6667 4.18683 14.6667 3.75901 14.4487C3.38269 14.257 3.07673 13.951 2.88498 13.5747C2.66699 13.1468 2.66699 12.5868 2.66699 11.4667V4.53337C2.66699 3.41327 2.66699 2.85321 2.88498 2.42539C3.07673 2.04907 3.38269 1.74311 3.75901 1.55136C4.18683 1.33337 4.74689 1.33337 5.86699 1.33337H8.00819C8.49733 1.33337 8.74193 1.33337 8.97213 1.38863C9.17619 1.43763 9.37126 1.51843 9.55026 1.62809C9.75206 1.75177 9.92499 1.92473 10.2709 2.27063L12.3964 4.39611C12.7423 4.74202 12.9153 4.91497 13.0389 5.11681C13.1486 5.29575 13.2294 5.49084 13.2784 5.69491C13.3337 5.92509 13.3337 6.16967 13.3337 6.65885Z"
+      stroke="currentColor"
+      stroke-width="1.33333"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+
+  <span class="text-xs"> Download my CV </span>
+</a>
+
+<div class=" space-x-1.5">
+  <a
+    href="#about"
+    class="py-1.5 px-4 text-white bg-[#292929] rounded-full text-xs""
+  >
+    About
+  </a>
+  <a
+    href="#about"
+    class="py-1.5 px-4 text-white bg-[#292929] rounded-full text-xs""
+  >
+    Projects
+  </a>
+</div>
+
+  </div>
+
+  <div class="flex items-center justify-between space-x-2 text-white text-xs">
+    Currently at
+    <p class="py-1.5 px-4 text-white bg-[#292929] rounded-full text-xs ml-3">
+      📍Toronto
+    </p>
+    <p class="py-1.5 px-4 text-white bg-[#292929] rounded-full text-xs">
+      {{ site.time | date: "%a, %b %d, %Y %I:%M %p" }}
+    </p>
+    <div
+      class="flex justify-center items-center bg-[#292929] rounded-full space-x-1.5 py-1.5 px-4"
+    >
+      <span id="weather" class="text-white text-xs"></span>
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4 text-white"
+      >
+        <path
+          d="M16 18.5L15 21M8 18.5L7 21M12 18.5L11 21M7 15C4.23858 15 2 12.7614 2 10C2 7.23858 4.23858 5 7 5C7.03315 5 7.06622 5.00032 7.09922 5.00097C8.0094 3.2196 9.86227 2 12 2C14.5192 2 16.6429 3.69375 17.2943 6.00462C17.3625 6.00155 17.4311 6 17.5 6C19.9853 6 22 8.01472 22 10.5C22 12.9853 19.9853 15 17.5 15C13.7434 15 11.2352 15 7 15Z"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+      </svg>
+    </div>
+  </div>
+</div>

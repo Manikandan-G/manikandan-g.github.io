@@ -1,0 +1,25 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Tailwind/PostCSS
+assets/css/output.css
+
+# Node
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+# Ruby
+.bundle/
+vendor/
+
+# VS Code & OS
+.DS_Store
+.vscode/
+
+#Note
+note.txt

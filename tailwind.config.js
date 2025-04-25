@@ -13,6 +13,8 @@ export default {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         mono: ["DM Mono", "monospace"],
+        dosis: ["Dosis", "sans-serif"],
+        handwriting: ["Schoolbell", "cursive"],
       },
     },
   },

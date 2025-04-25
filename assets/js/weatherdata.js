@@ -1,5 +1,5 @@
 async function getWeather() {
-  const apiKey = "1826df7d34fa38bc3c746ea891360ff4"; // Replace this
+  const apiKey = "1826df7d34fa38bc3c746ea891360ff4_u"; // Replace this
   const city = "Toronto"; // Or get dynamically from user
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 

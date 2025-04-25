@@ -9,7 +9,12 @@ export default {
     "./*.md",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        mono: ["DM Mono", "monospace"],
+      },
+    },
   },
   plugins: [],
 };

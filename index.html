@@ -3,78 +3,180 @@ layout: default
 title: Manikandan Ganesan ⸺  Software Engineer
 ---
 
-<section class="flex items-center justify-center mt-14 md:mt-16 w-full px-8 font-inter">
+<!-- Hero Section -->
+<section
+  class="flex flex-col lg:flex-row items-center justify-center mt-8 md:mt-14 lg:mt-16 w-full px-4 md:px-8 font-inter"
+>
   <!-- Image Container -->
-  <div class="flex overflow-hidden p-4 justify-center items-center w-1/2">
-    <!-- <img
-      class="h-1/2 object-cover rounded-full"
-      src="{{'/assets/images/undraw_programming_65t2.svg' | relative_url }}"
-      alt="Hero Image"
-    /> -->
-    <img
-      class="h-1/2 object-cover rounded-full"
-      src="{{'/assets/images/programmer_headshot.png' | relative_url }}"
-      alt="Hero Image"
-    />
-  </div>
+  <img
+    class="w-32 h-32 md:w-48 md:h-48 lg:w-80 lg:h-80 object-cover rounded-full border-4 border-blue-500"
+    src="{{'/assets/images/programmer_headshot.png' | relative_url }}"
+    alt="Manikandan Ganesan - Software Engineer"
+  />
 
   <!-- Text Container -->
-  <div class="flex flex-col justify-center p-8 text-[#F5F5F5] w-1/2 font-mono">
-    <h1 class="text-5xl font-semibold">
-      👋🏻 I am <br/><span class="typing-container align-bottom">Manikandan Ganesan,</span> a
+  <div
+    class="flex flex-col justify-center p-4 md:p-8 text-[#F5F5F5] w-full lg:w-1/2 font-mono text-center lg:text-left"
+  >
+    <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight">
+      👋🏻 I am <br class="hidden lg:hidden" /><span
+        class="typing-container align-bottom text-blue-400"
+        >Manikandan Ganesan,</span
+      >
     </h1>
-    <h1 class="text-5xl font-semibold">Software Engineer</h1>
-    <p class="mt-4 text-2xl text-[#7b7b7b]">
-      Currently working as a research assistant, building software products
-      using large language models — including RAG-based applications and
-      full-stack applications powered by AI.
+    <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold mt-2 ml-10">
+      a Software Engineer
+    </h1>
+    <p
+      class="mt-4 text-lg md:text-xl lg:text-2xl text-[#7b7b7b] leading-relaxed"
+    >
+      Building AI-powered solutions that solve real problems — from RAG-enabled
+      chatbots to generative AI animations. When I'm not coding, you'll find me
+      tinkering with Raspberry Pi projects, exploring new programming languages,
+      or binge-watching anime!🍿
     </p>
-    <p class="mt-2 text-2xl text-[#7b7b7b]">
+    <!-- <p
+      class="mt-2 text-lg md:text-xl lg:text-2xl text-[#7b7b7b] leading-relaxed"
+    >
       In my spare time, I like to tinker with hardware projects using Raspberry
       Pi, Arduino, and ESP8266, as well as explore new programming languages and
       experiment with emerging tech.
-    </p>
+    </p> -->
   </div>
 </section>
+
+<!-- About Section -->
 <span id="about"></span>
 <section
-  class="flex flex-col items-start justify-start mt-14 md:mt-16 w-full text-[#F5F5F5] px-8 font-inter"
+  class="flex flex-col items-start justify-start mt-12 md:mt-14 lg:mt-14 w-full text-[#F5F5F5] px-4 md:px-20 font-inter"
 >
-  <h1 class="text-9xl font-semibold">About Me</h1>
-  <div class="flex justify-between items-start mt-8">
-    <p class="w-1/3 font-semibold text-2xl">
+  <h1 class="text-4xl md:text-6xl lg:text-9xl font-semibold mb-6 md:mb-8">
+    About Me
+  </h1>
+  <div
+    class="flex flex-col lg:flex-row lg:justify-between lg:items-start w-full space-y-6 lg:space-y-0"
+  >
+    <p
+      class="w-full lg:w-1/3 font-semibold text-xl md:text-2xl leading-relaxed"
+    >
       From sketch to scale, I love turning ideas into software that makes a
       difference.
     </p>
-    <p class="w-[60%] text-xl text-[#888]">
-      My name is <span class="font-mono text-[#F5F5F5]">Manikandan Ganesan,</span> and I'm a Software and Research Engineer
-      with 5+ years of experience across hardware and software. Starting as an
-      Embedded Engineer, I now build AI-powered tools like RAG-enabled chatbots,
-      generative AI animations, and predictive models. I'm skilled in Python,
-      C/C++, JavaScript, and frameworks like React, Flask, and Django. I've
-      implemented protocols like OCPP and MQTT, and recently completed a degree
-      in Cybersecurity. Passionate about problem-solving, I thrive on building
-      secure, scalable solutions that drive real impact.
+    <p class="w-full lg:w-[60%] text-lg md:text-xl text-[#888] leading-relaxed">
+      My name is
+      <span class="font-mono text-[#F5F5F5]">Manikandan Ganesan,</span> and I'm
+      a Software and Research Engineer with 5+ years of experience spanning
+      hardware and software development. My journey began as an Embedded
+      Engineer, but I've evolved into building AI-powered applications and
+      intelligent systems. I specialize in Python, C/C++, and JavaScript, with
+      expertise in frameworks like React, Flask, and Django. I've implemented
+      communication protocols including OCPP and MQTT, and recently completed my
+      degree in Cybersecurity to better understand secure system design.Today, I
+      focus on large language model applications, RAG systems, and full-stack AI
+      solutions. I believe in building software that's not just functional, but
+      transformative — code that makes people's lives easier and more enjoyable.
     </p>
   </div>
 </section>
 
-<section class="mt-14 md:mt-16 w-full text-[#F5F5F5] px-8 font-inter">
+<!-- Work History Section -->
+<section
+  class="mt-12 md:mt-14 lg:mt-16 w-full text-[#F5F5F5] px-4 md:px-20 font-inter"
+>
+  <h3 class="font-mono text-2xl md:text-3xl text-[#888] mb-6 md:mb-8">
+    Work History
+  </h3>
 
-  <h3 class="font-mono text-3xl text-[#888]">Work History</h3>
-  <div class="relative border-l border-gray-300 ml-[40%] mt-4">
+  <!-- Mobile Timeline -->
+  <div class="block lg:hidden space-y-6">
+    <!-- Timeline item -->
+    <div class="border-l-2 border-[#054ADA] pl-6 relative">
+      <div
+        class="absolute w-4 h-4 bg-[#054ADA] rounded-full -left-2 top-1 border-2 border-white"
+      ></div>
+      <div class="text-lg font-semibold text-blue-400 mb-1">
+        Nov 2023 — Present
+      </div>
+      <h3 class="text-lg font-semibold text-[#F5F5F5] mb-1">
+        Research Assistant
+      </h3>
+      <p class="text-gray-300 text-sm">
+        <span class="italic block"
+          >Durham College, Artificial Intelligence Hub</span
+        >
+        <span class="italic">Oshawa, Canada</span>
+      </p>
+    </div>
+
+    <!-- Timeline item -->
+    <div class="border-l-2 border-[#054ADA] pl-6 relative">
+      <div
+        class="absolute w-4 h-4 bg-[#054ADA] rounded-full -left-2 top-1 border-2 border-white"
+      ></div>
+      <div class="text-lg font-semibold text-blue-400 mb-1">
+        Feb 2022 — Aug 2023
+      </div>
+      <h3 class="text-lg font-semibold text-[#F5F5F5] mb-1">
+        Software Engineer
+      </h3>
+      <p class="text-gray-300 text-sm">
+        <span class="italic block">Apar Innosys Pte. Ltd.</span>
+        <span class="italic">Chennai, India</span>
+      </p>
+    </div>
+
+    <!-- Timeline item -->
+    <div class="border-l-2 border-[#054ADA] pl-6 relative">
+      <div
+        class="absolute w-4 h-4 bg-[#054ADA] rounded-full -left-2 top-1 border-2 border-white"
+      ></div>
+      <div class="text-lg font-semibold text-blue-400 mb-1">
+        Nov 2020 — Jan 2022
+      </div>
+      <h3 class="text-lg font-semibold text-[#F5F5F5] mb-1">
+        Research Engineer
+      </h3>
+      <p class="text-gray-300 text-sm">
+        <span class="italic block"
+          >Coovum Smart Systems and Services Pvt. Ltd.</span
+        >
+        <span class="italic">Chennai, India</span>
+      </p>
+    </div>
+
+    <!-- Timeline item -->
+    <div class="border-l-2 border-[#054ADA] pl-6 relative">
+      <div
+        class="absolute w-4 h-4 bg-[#054ADA] rounded-full -left-2 top-1 border-2 border-white"
+      ></div>
+      <div class="text-lg font-semibold text-blue-400 mb-1">
+        Aug 2018 — Oct 2020
+      </div>
+      <h3 class="text-lg font-semibold text-[#F5F5F5] mb-1">
+        Embedded Engineer
+      </h3>
+      <p class="text-gray-300 text-sm">
+        <span class="italic block"
+          >Coovum Smart Systems and Services Pvt. Ltd.</span
+        >
+        <span class="italic">Chennai, India</span>
+      </p>
+    </div>
+  </div>
+
+  <!-- Desktop Timeline -->
+  <div class="hidden lg:block relative border-l border-gray-300 ml-[40%] mt-4">
     <!-- Timeline item -->
     <div class="mb-10 flex flex-col items-start ml-6">
       <div
-        class="relative w-3 h-3 bg-[#054ADA] rounded-full -left-[31px] top-5 border border-white"
+        class="absolute w-3 h-3 bg-[#054ADA] rounded-full -left-[7px] border border-white top-3"
       ></div>
-      <!-- Blue Dot -->
-      <div
-        class="block text-2xl text-[#FFFFFF75] -mb-7 ml-[-290px] font-semibold"
-        >Nov 2023 — Present</div
-      >
-      <!-- Year moved to left -->
-      <h3 class="text-lg font-semibold text-[#F5F5F5]">Research Assistant</h3>
+      <div class="block text-2xl text-[#FFFFFF75] mb-2 -ml-72 font-semibold">
+        Nov 2023 — Present
+      </div>
+      <h3 class="text-lg font-semibold text-[#F5F5F5] -mt-8">
+        Research Assistant
+      </h3>
       <p class="text-gray-300 space-x-1.5">
         <span class="italic">Durham College, Artificial Intelligence Hub</span>
         <span class="italic">Oshawa, Canada</span>
@@ -83,85 +185,89 @@ title: Manikandan Ganesan ⸺  Software Engineer
 
     <!-- Timeline item -->
     <div class="mb-10 flex flex-col items-start ml-6">
-        <div
-          class="relative w-3 h-3 bg-[#054ADA] rounded-full -left-[31px] top-5 border border-white"
-        ></div>
-        <!-- Blue Dot -->
-        <div
-          class="block text-2xl text-[#FFFFFF75] -mb-7 ml-[-290px] font-semibold"
-          >Feb 2022 — Aug 2023</div
-        >
-        <!-- Year moved to left -->
-        <h3 class="text-lg font-semibold text-[#F5F5F5]">Software Engineer</h3>
-        <p class="text-gray-300 space-x-1.5">
-          <span class="italic">Apar Innosys Pte. Ltd.</span>
-          <span class="italic">Chennai, India</span>
-        </p>
+      <div
+        class="absolute w-3 h-3 bg-[#054ADA] rounded-full -left-[7px] border border-white top-28"
+      ></div>
+      <div class="block text-2xl text-[#FFFFFF75] mb-2 -ml-72 font-semibold">
+        Feb 2022 — Aug 2023
+      </div>
+      <h3 class="text-lg font-semibold text-[#F5F5F5] -mt-8">
+        Software Engineer
+      </h3>
+      <p class="text-gray-300 space-x-1.5">
+        <span class="italic">Apar Innosys Pte. Ltd.</span>
+        <span class="italic">Chennai, India</span>
+      </p>
     </div>
 
     <!-- Timeline item -->
     <div class="mb-10 flex flex-col items-start ml-6">
-        <div
-          class="relative w-3 h-3 bg-[#054ADA] rounded-full -left-[31px] top-5 border border-white"
-        ></div>
-        <!-- Blue Dot -->
-        <div
-          class="block text-2xl text-[#FFFFFF75] -mb-7 ml-[-290px] font-semibold"
-          >Nov 2020 — Jan 2022</div
-        >
-        <!-- Year moved to left -->
-        <h3 class="text-lg font-semibold text-[#F5F5F5]">Research Engineer</h3>
-        <p class="text-gray-300 space-x-1.5">
-          <span class="italic">Coovum Smart Systems and Services Pvt. Ltd.</span>
-          <span class="italic">Chennai, India</span>
-        </p>
+      <div
+        class="absolute w-3 h-3 bg-[#054ADA] rounded-full -left-[7px] border border-white top-[212px]"
+      ></div>
+      <div class="block text-2xl text-[#FFFFFF75] mb-2 -ml-72 font-semibold">
+        Nov 2020 — Jan 2022
+      </div>
+      <h3 class="text-lg font-semibold text-[#F5F5F5] -mt-8">
+        Research Engineer
+      </h3>
+      <p class="text-gray-300 space-x-1.5">
+        <span class="italic">Coovum Smart Systems and Services Pvt. Ltd.</span>
+        <span class="italic">Chennai, India</span>
+      </p>
     </div>
 
     <!-- Timeline item -->
     <div class="mb-10 flex flex-col items-start ml-6">
-        <div
-          class="relative w-3 h-3 bg-[#054ADA] rounded-full -left-[31px] top-5 border border-white"
-        ></div>
-        <!-- Blue Dot -->
-        <div
-          class="block text-2xl text-[#FFFFFF75] -mb-7 ml-[-290px] font-semibold"
-          >Aug 2018 — Oct 2020</div
-        >
-        <!-- Year moved to left -->
-        <h3 class="text-lg font-semibold text-[#F5F5F5]">Embedded Engineer</h3>
-        <p class="text-gray-300 space-x-1.5">
-          <span class="italic">Coovum Smart Systems and Services Pvt. Ltd.</span>
-          <span class="italic">Chennai, India</span>
-        </p>
+      <div
+        class="absolute w-3 h-3 bg-[#054ADA] rounded-full -left-[7px] border border-white top-[312px]"
+      ></div>
+      <div class="block text-2xl text-[#FFFFFF75] mb-2 -ml-72 font-semibold">
+        Aug 2018 — Oct 2020
+      </div>
+      <h3 class="text-lg font-semibold text-[#F5F5F5] -mt-8">
+        Embedded Engineer
+      </h3>
+      <p class="text-gray-300 space-x-1.5">
+        <span class="italic">Coovum Smart Systems and Services Pvt. Ltd.</span>
+        <span class="italic">Chennai, India</span>
+      </p>
     </div>
+  </div>
 </section>
 
-<!-- <div class="footer_m">
-  <div class="footer__mail cursor-pointer bg-[#F5F5F5]">
-    <p class="font-handwriting">Click to copy</p>
-    <div>
-      <a href="mailto:ganesan.manikandan@outlook.com">
-        <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
-          <path d="M5.7326 23.4158L6.29373 22.3146L6.29372 22.3146L5.7326 23.4158ZM4.11215 21.7954L3.01088 22.3565L3.01088 22.3565L4.11215 21.7954ZM25.5517 21.7954L26.653 22.3565V22.3565L25.5517 21.7954ZM23.9313 23.4158L23.3701 22.3146L23.3701 22.3146L23.9313 23.4158ZM25.5517 8.5407L26.653 7.97957V7.97957L25.5517 8.5407ZM23.9313 6.92026L23.3701 8.02153L23.3701 8.02154L23.9313 6.92026ZM4.11215 8.5407L5.21343 9.10183V9.10183L4.11215 8.5407ZM5.7326 6.92026L6.29373 8.02153L5.7326 6.92026ZM17.1483 14.551L16.3761 13.5858H16.3761L17.1483 14.551ZM12.5156 14.551L11.7434 15.5161L12.5156 14.551ZM24.7199 12.4489V17.8872H27.1918V12.4489H24.7199ZM20.0231 22.584H9.64077V25.056H20.0231V22.584ZM4.944 17.8872V12.4489H2.47202V17.8872H4.944ZM9.64077 7.7521H20.0231V5.28012H9.64077V7.7521ZM9.64077 22.584C8.58204 22.584 7.86233 22.583 7.30603 22.5376C6.76415 22.4933 6.48703 22.4131 6.29373 22.3146L5.17147 24.5171C5.77134 24.8228 6.40998 24.9446 7.10473 25.0014C7.78505 25.0569 8.62283 25.056 9.64077 25.056V22.584ZM2.47202 17.8872C2.47202 18.9052 2.47106 19.743 2.52664 20.4233C2.5834 21.118 2.70523 21.7567 3.01088 22.3565L5.21343 21.2343C5.11493 21.041 5.03469 20.7639 4.99041 20.222C4.94496 19.6657 4.944 18.946 4.944 17.8872H2.47202ZM6.29372 22.3146C5.82859 22.0776 5.45043 21.6994 5.21343 21.2343L3.01088 22.3565C3.48487 23.2868 4.2412 24.0431 5.17147 24.5171L6.29372 22.3146ZM24.7199 17.8872C24.7199 18.946 24.7189 19.6657 24.6735 20.222C24.6292 20.7639 24.5489 21.041 24.4504 21.2343L26.653 22.3565C26.9586 21.7567 27.0805 21.118 27.1372 20.4233C27.1928 19.743 27.1918 18.9052 27.1918 17.8872H24.7199ZM20.0231 25.056C21.041 25.056 21.8788 25.0569 22.5591 25.0014C23.2539 24.9446 23.8925 24.8228 24.4924 24.5171L23.3701 22.3146C23.1768 22.4131 22.8997 22.4933 22.3578 22.5376C21.8015 22.583 21.0818 22.584 20.0231 22.584V25.056ZM24.4504 21.2343C24.2134 21.6994 23.8353 22.0776 23.3701 22.3146L24.4924 24.5171C25.4227 24.0431 26.179 23.2868 26.653 22.3565L24.4504 21.2343ZM27.1918 12.4489C27.1918 11.4309 27.1928 10.5932 27.1372 9.91283C27.0805 9.21809 26.9586 8.57944 26.653 7.97957L24.4504 9.10183C24.5489 9.29514 24.6292 9.57225 24.6735 10.1141C24.7189 10.6704 24.7199 11.3901 24.7199 12.4489H27.1918ZM20.0231 7.7521C21.0818 7.7521 21.8015 7.75307 22.3578 7.79852C22.8997 7.84279 23.1768 7.92304 23.3701 8.02153L24.4924 5.81898C23.8925 5.51333 23.2539 5.39151 22.5591 5.33474C21.8788 5.27916 21.041 5.28012 20.0231 5.28012V7.7521ZM26.653 7.97957C26.179 7.04931 25.4227 6.29298 24.4924 5.81898L23.3701 8.02154C23.8353 8.25853 24.2134 8.6367 24.4504 9.10183L26.653 7.97957ZM4.944 12.4489C4.944 11.3901 4.94496 10.6704 4.99041 10.1141C5.03469 9.57225 5.11493 9.29514 5.21343 9.10183L3.01088 7.97957C2.70523 8.57944 2.5834 9.21809 2.52664 9.91283C2.47106 10.5932 2.47202 11.4309 2.47202 12.4489H4.944ZM9.64077 5.28012C8.62283 5.28012 7.78505 5.27916 7.10473 5.33474C6.40998 5.39151 5.77134 5.51333 5.17147 5.81898L6.29373 8.02153C6.48703 7.92304 6.76415 7.84279 7.30603 7.79852C7.86233 7.75307 8.58204 7.7521 9.64077 7.7521V5.28012ZM5.21343 9.10183C5.45043 8.6367 5.82859 8.25853 6.29373 8.02153L5.17147 5.81898C4.2412 6.29298 3.48487 7.04931 3.01088 7.97957L5.21343 9.10183ZM24.5657 7.03416L16.3761 13.5858L17.9204 15.5161L26.11 8.96445L24.5657 7.03416ZM13.2877 13.5858L5.0981 7.03416L3.55387 8.96445L11.7434 15.5161L13.2877 13.5858ZM16.3761 13.5858C15.4733 14.3081 14.1905 14.3081 13.2877 13.5858L11.7434 15.5161C13.5491 16.9606 16.1148 16.9606 17.9204 15.5161L16.3761 13.5858Z" fill="black"></path>
-        </svg>
-        <span>ganesan.manikandan@outlook.com</span>
-      </a>
-    </div>
-  </div>
-</div> -->
+<!-- Footer -->
+<div
+  class="footer flex flex-col md:flex-row items-center justify-between w-full text-[#888] font-mono px-4 md:px-8 py-8 mt-12 space-y-4 md:space-y-0"
+>
+  <p class="text-sm md:text-base">(c) mg. 2025.</p>
 
-
-<div class="footer flex items-center justify-between w-full text-[#888] font-mono px-8 py-8">
-  <p >(c) mg. {{ site.time | date: "%Y" }}.</p>
-  <div class="bg-[#F5F5F5] py-1.5 px-4 w-max rounded-full flex items-center space-x-2">
-
-    <a href="mailto:ganesan.manikandan@outlook.com" class="flex items-center space-x-2 text-black no-underline">
-    <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
-      <path d="M5.7326 23.4158L6.29373 22.3146L6.29372 22.3146L5.7326 23.4158ZM4.11215 21.7954L3.01088 22.3565L3.01088 22.3565L4.11215 21.7954ZM25.5517 21.7954L26.653 22.3565V22.3565L25.5517 21.7954ZM23.9313 23.4158L23.3701 22.3146L23.3701 22.3146L23.9313 23.4158ZM25.5517 8.5407L26.653 7.97957V7.97957L25.5517 8.5407ZM23.9313 6.92026L23.3701 8.02153L23.3701 8.02154L23.9313 6.92026ZM4.11215 8.5407L5.21343 9.10183V9.10183L4.11215 8.5407ZM5.7326 6.92026L6.29373 8.02153L5.7326 6.92026ZM17.1483 14.551L16.3761 13.5858H16.3761L17.1483 14.551ZM12.5156 14.551L11.7434 15.5161L12.5156 14.551ZM24.7199 12.4489V17.8872H27.1918V12.4489H24.7199ZM20.0231 22.584H9.64077V25.056H20.0231V22.584ZM4.944 17.8872V12.4489H2.47202V17.8872H4.944ZM9.64077 7.7521H20.0231V5.28012H9.64077V7.7521ZM9.64077 22.584C8.58204 22.584 7.86233 22.583 7.30603 22.5376C6.76415 22.4933 6.48703 22.4131 6.29373 22.3146L5.17147 24.5171C5.77134 24.8228 6.40998 24.9446 7.10473 25.0014C7.78505 25.0569 8.62283 25.056 9.64077 25.056V22.584ZM2.47202 17.8872C2.47202 18.9052 2.47106 19.743 2.52664 20.4233C2.5834 21.118 2.70523 21.7567 3.01088 22.3565L5.21343 21.2343C5.11493 21.041 5.03469 20.7639 4.99041 20.222C4.94496 19.6657 4.944 18.946 4.944 17.8872H2.47202ZM6.29372 22.3146C5.82859 22.0776 5.45043 21.6994 5.21343 21.2343L3.01088 22.3565C3.48487 23.2868 4.2412 24.0431 5.17147 24.5171L6.29372 22.3146ZM24.7199 17.8872C24.7199 18.946 24.7189 19.6657 24.6735 20.222C24.6292 20.7639 24.5489 21.041 24.4504 21.2343L26.653 22.3565C26.9586 21.7567 27.0805 21.118 27.1372 20.4233C27.1928 19.743 27.1918 18.9052 27.1918 17.8872H24.7199ZM20.0231 25.056C21.041 25.056 21.8788 25.0569 22.5591 25.0014C23.2539 24.9446 23.8925 24.8228 24.4924 24.5171L23.3701 22.3146C23.1768 22.4131 22.8997 22.4933 22.3578 22.5376C21.8015 22.583 21.0818 22.584 20.0231 22.584V25.056ZM24.4504 21.2343C24.2134 21.6994 23.8353 22.0776 23.3701 22.3146L24.4924 24.5171C25.4227 24.0431 26.179 23.2868 26.653 22.3565L24.4504 21.2343ZM27.1918 12.4489C27.1918 11.4309 27.1928 10.5932 27.1372 9.91283C27.0805 9.21809 26.9586 8.57944 26.653 7.97957L24.4504 9.10183C24.5489 9.29514 24.6292 9.57225 24.6735 10.1141C24.7189 10.6704 24.7199 11.3901 24.7199 12.4489H27.1918ZM20.0231 7.7521C21.0818 7.7521 21.8015 7.75307 22.3578 7.79852C22.8997 7.84279 23.1768 7.92304 23.3701 8.02153L24.4924 5.81898C23.8925 5.51333 23.2539 5.39151 22.5591 5.33474C21.8788 5.27916 21.041 5.28012 20.0231 5.28012V7.7521ZM26.653 7.97957C26.179 7.04931 25.4227 6.29298 24.4924 5.81898L23.3701 8.02154C23.8353 8.25853 24.2134 8.6367 24.4504 9.10183L26.653 7.97957ZM4.944 12.4489C4.944 11.3901 4.94496 10.6704 4.99041 10.1141C5.03469 9.57225 5.11493 9.29514 5.21343 9.10183L3.01088 7.97957C2.70523 8.57944 2.5834 9.21809 2.52664 9.91283C2.47106 10.5932 2.47202 11.4309 2.47202 12.4489H4.944ZM9.64077 5.28012C8.62283 5.28012 7.78505 5.27916 7.10473 5.33474C6.40998 5.39151 5.77134 5.51333 5.17147 5.81898L6.29373 8.02153C6.48703 7.92304 6.76415 7.84279 7.30603 7.79852C7.86233 7.75307 8.58204 7.7521 9.64077 7.7521V5.28012ZM5.21343 9.10183C5.45043 8.6367 5.82859 8.25853 6.29373 8.02153L5.17147 5.81898C4.2412 6.29298 3.48487 7.04931 3.01088 7.97957L5.21343 9.10183ZM24.5657 7.03416L16.3761 13.5858L17.9204 15.5161L26.11 8.96445L24.5657 7.03416ZM13.2877 13.5858L5.0981 7.03416L3.55387 8.96445L11.7434 15.5161L13.2877 13.5858ZM16.3761 13.5858C15.4733 14.3081 14.1905 14.3081 13.2877 13.5858L11.7434 15.5161C13.5491 16.9606 16.1148 16.9606 17.9204 15.5161L16.3761 13.5858Z" fill="black"></path>
-    </svg>
-      <span>ganesan.manikandan@outlook.com</span>
+  <div
+    class="bg-[#F5F5F5] py-2 px-4 md:py-1.5 md:px-4 w-max rounded-full flex items-center space-x-2 hover:bg-gray-200 transition-colors"
+  >
+    <a
+      href="mailto:ganesan.manikandan@outlook.com"
+      class="flex items-center space-x-2 text-black no-underline"
+    >
+      <svg
+        width="24"
+        height="24"
+        md:width="30"
+        md:height="30"
+        viewBox="0 0 30 30"
+        fill="none"
+      >
+        <path
+          d="M5.7326 23.4158L6.29373 22.3146L6.29372 22.3146L5.7326 23.4158ZM4.11215 21.7954L3.01088 22.3565L3.01088 22.3565L4.11215 21.7954ZM25.5517 21.7954L26.653 22.3565V22.3565L25.5517 21.7954ZM23.9313 23.4158L23.3701 22.3146L23.3701 22.3146L23.9313 23.4158ZM25.5517 8.5407L26.653 7.97957V7.97957L25.5517 8.5407ZM23.9313 6.92026L23.3701 8.02153L23.3701 8.02154L23.9313 6.92026ZM4.11215 8.5407L5.21343 9.10183V9.10183L4.11215 8.5407ZM5.7326 6.92026L6.29373 8.02153L5.7326 6.92026ZM17.1483 14.551L16.3761 13.5858H16.3761L17.1483 14.551ZM12.5156 14.551L11.7434 15.5161L12.5156 14.551ZM24.7199 12.4489V17.8872H27.1918V12.4489H24.7199ZM20.0231 22.584H9.64077V25.056H20.0231V22.584ZM4.944 17.8872V12.4489H2.47202V17.8872H4.944ZM9.64077 7.7521H20.0231V5.28012H9.64077V7.7521ZM9.64077 22.584C8.58204 22.584 7.86233 22.583 7.30603 22.5376C6.76415 22.4933 6.48703 22.4131 6.29373 22.3146L5.17147 24.5171C5.77134 24.8228 6.40998 24.9446 7.10473 25.0014C7.78505 25.0569 8.62283 25.056 9.64077 25.056V22.584ZM2.47202 17.8872C2.47202 18.9052 2.47106 19.743 2.52664 20.4233C2.5834 21.118 2.70523 21.7567 3.01088 22.3565L5.21343 21.2343C5.11493 21.041 5.03469 20.7639 4.99041 20.222C4.94496 19.6657 4.944 18.946 4.944 17.8872H2.47202ZM6.29372 22.3146C5.82859 22.0776 5.45043 21.6994 5.21343 21.2343L3.01088 22.3565C3.48487 23.2868 4.2412 24.0431 5.17147 24.5171L6.29372 22.3146ZM24.7199 17.8872C24.7199 18.946 24.7189 19.6657 24.6735 20.222C24.6292 20.7639 24.5489 21.041 24.4504 21.2343L26.653 22.3565C26.9586 21.7567 27.0805 21.118 27.1372 20.4233C27.1928 19.743 27.1918 18.9052 27.1918 17.8872H24.7199ZM20.0231 25.056C21.041 25.056 21.8788 25.0569 22.5591 25.0014C23.2539 24.9446 23.8925 24.8228 24.4924 24.5171L23.3701 22.3146C23.1768 22.4131 22.8997 22.4933 22.3578 22.5376C21.8015 22.583 21.0818 22.584 20.0231 22.584V25.056ZM24.4504 21.2343C24.2134 21.6994 23.8353 22.0776 23.3701 22.3146L24.4924 24.5171C25.4227 24.0431 26.179 23.2868 26.653 22.3565L24.4504 21.2343ZM27.1918 12.4489C27.1918 11.4309 27.1928 10.5932 27.1372 9.91283C27.0805 9.21809 26.9586 8.57944 26.653 7.97957L24.4504 9.10183C24.5489 9.29514 24.6292 9.57225 24.6735 10.1141C24.7189 10.6704 24.7199 11.3901 24.7199 12.4489H27.1918ZM20.0231 7.7521C21.0818 7.7521 21.8015 7.75307 22.3578 7.79852C22.8997 7.84279 23.1768 7.92304 23.3701 8.02153L24.4924 5.81898C23.8925 5.51333 23.2539 5.39151 22.5591 5.33474C21.8788 5.27916 21.041 5.28012 20.0231 5.28012V7.7521ZM26.653 7.97957C26.179 7.04931 25.4227 6.29298 24.4924 5.81898L23.3701 8.02154C23.8353 8.25853 24.2134 8.6367 24.4504 9.10183L26.653 7.97957ZM4.944 12.4489C4.944 11.3901 4.94496 10.6704 4.99041 10.1141C5.03469 9.57225 5.11493 9.29514 5.21343 9.10183L3.01088 7.97957C2.70523 8.57944 2.5834 9.21809 2.52664 9.91283C2.47106 10.5932 2.47202 11.4309 2.47202 12.4489H4.944ZM9.64077 5.28012C8.62283 5.28012 7.78505 5.27916 7.10473 5.33474C6.40998 5.39151 5.77134 5.51333 5.17147 5.81898L6.29373 8.02153C6.48703 7.92304 6.76415 7.84279 7.30603 7.79852C7.86233 7.75307 8.58204 7.7521 9.64077 7.7521V5.28012ZM5.21343 9.10183C5.45043 8.6367 5.82859 8.25853 6.29373 8.02153L5.17147 5.81898C4.2412 6.29298 3.48487 7.04931 3.01088 7.97957L5.21343 9.10183ZM24.5657 7.03416L16.3761 13.5858L17.9204 15.5161L26.11 8.96445L24.5657 7.03416ZM13.2877 13.5858L5.0981 7.03416L3.55387 8.96445L11.7434 15.5161L13.2877 13.5858ZM16.3761 13.5858C15.4733 14.3081 14.1905 14.3081 13.2877 13.5858L11.7434 15.5161C13.5491 16.9606 16.1148 16.9606 17.9204 15.5161L16.3761 13.5858Z"
+          fill="black"
+        ></path>
+      </svg>
+      <span class="text-sm md:text-base">ganesan.manikandan@outlook.com</span>
     </a>
   </div>
-  <p > built with 💙️️️ + 🌟, mg. + <a href="/">goody.</a></p>
-</div>
 
+  <p class="text-sm md:text-base">
+    built with 💙️️️ + 🌟, mg. +
+    <a href="/" class="hover:text-blue-400 transition-colors">goody.</a>
+  </p>
+</div>

@@ -15,6 +15,7 @@ export default {
         mono: ["DM Mono", "monospace"],
         dosis: ["Dosis", "sans-serif"],
         handwriting: ["Schoolbell", "cursive"],
+        roboto: ["Roboto", "ui-sans-serif", "system-ui"],
       },
     },
   },

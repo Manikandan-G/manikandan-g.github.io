@@ -1,0 +1,14 @@
+collections:
+  posts:
+    output: true
+    permalink: /blog/posts/:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  toc_levels: 1..6
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
